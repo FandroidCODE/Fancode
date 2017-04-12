@@ -1,0 +1,9 @@
+jf Player Cache ("PrivateEnding1 = 1")
+Then Custom Night.button = true
+jf Player Cache ("PrivateEnding1 = -1")
+Then Custom Night.button = false
+if clicked when Custom Night.button = true
+then load private room.savedevents
+private room.map
+custom night mode selection.savedgui
+custom night mode selections.packedevents
